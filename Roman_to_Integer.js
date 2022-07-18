@@ -2,6 +2,11 @@
 // leet code challenge 'Roman to Integer'
 // problem link https://leetcode.com/problems/roman-to-integer/
 
+/**
+ * @param {string} s
+ * @return {number}
+ */
+
 let dectionary = {
     "I": 1,
     "V": 5,
