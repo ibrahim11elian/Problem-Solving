@@ -1,6 +1,6 @@
 
 // leet code challenge 'Middle of the Linked List'
-// problem link https://leetcode.com/problems/fizz-buzz/
+// problem link https://leetcode.com/problems/middle-of-the-linked-list/
 
 /**
  * Definition for singly-linked list.
