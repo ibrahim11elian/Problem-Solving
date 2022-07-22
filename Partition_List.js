@@ -1,5 +1,5 @@
 
-// leet code challenge 'Roman to Integer'
+// leet code challenge 'Partition List'
 // problem link https://leetcode.com/problems/partition-list/
 
 /**
@@ -24,10 +24,10 @@ var partition = function (head, x) {
     while (head) {
         if (head.val < x) {
             tempFirst.next = head;
-            tempFirst = tempFirst.next
+            tempFirst = tempFirst.next;
         } else {
             tempSecond.next = head;
-            tempSecond = tempSecond.next
+            tempSecond = tempSecond.next;
         }
         head = head.next;
     }
