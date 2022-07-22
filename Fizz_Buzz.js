@@ -1,5 +1,5 @@
 
-// leet code challenge 'Roman to Integer'
+// leet code challenge 'Fizz Buzz'
 // problem link https://leetcode.com/problems/fizz-buzz/
 
 /**

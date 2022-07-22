@@ -1,4 +1,4 @@
-// leet code challenge 'Roman to Integer'
+// leet code challenge 'Ransom Note'
 // problem link https://leetcode.com/problems/ransom-note/
 
 /**

@@ -1,5 +1,5 @@
 
-// leet code challenge 'Roman to Integer'
+// leet code challenge 'Palindrome Linked List'
 // problem link https://leetcode.com/problems/palindrome-linked-list/
 
 

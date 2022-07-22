@@ -1,5 +1,5 @@
 
-// leet code challenge 'Roman to Integer'
+// leet code challenge 'The K Weakest Rows in a Matrix'
 // problem link https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 
 /**
