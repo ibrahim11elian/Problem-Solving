@@ -10,12 +10,10 @@ var maximumWealth = function (accounts) {
 
     let wealthArr = [];
     let output = 0;
-    accounts.forEach(ele => wealthArr.push(ele.reduce((acc, cur) => acc + cur)));
-
-    wealthArr.forEach(ele => {
-        if (ele > output) {
-            output = ele;
-        }
+    let cur = 0;
+    accounts.forEach(ele => {
+        cur = ele.reduce((acc, cur) => acc + cur);
+        if (cur > output) output = cur;
     });
 
     return output;
