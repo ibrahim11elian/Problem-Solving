@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Number of Steps to Reduce a Number to Zero`));
+console.log(changeString(`Richest Customer Wealth`));
