@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Richest Customer Wealth`));
+console.log(changeString(`Find Pivot Index`));
