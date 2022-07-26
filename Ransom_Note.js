@@ -27,4 +27,4 @@ var canConstruct = function (ransomNote, magazine) {
 
 };
 
-console.log(canConstruct("12", "521723"));
+console.log(canConstruct("abc", "ahbgdc"));

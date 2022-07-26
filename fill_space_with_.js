@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Isomorphic Strings`));
+console.log(changeString(`Is Subsequence`));
