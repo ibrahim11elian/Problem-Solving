@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Is Subsequence`));
+console.log(changeString(`Merge Two Sorted Lists`));
