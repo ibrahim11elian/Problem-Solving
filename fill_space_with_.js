@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Reverse Linked List`));
+console.log(changeString(`Linked List Cycle II`));
