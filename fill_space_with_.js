@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Linked List Cycle II`));
+console.log(changeString(`Best Time to Buy and Sell Stock`));
