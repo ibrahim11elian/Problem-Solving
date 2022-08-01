@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Best Time to Buy and Sell Stock`));
+console.log(changeString(`Longest Palindrome`));
