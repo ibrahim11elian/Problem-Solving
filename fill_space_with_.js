@@ -5,4 +5,4 @@ function changeString(string) {
     return string.split(' ').join('_') + '.js';
 }
 
-console.log(changeString(`Longest Substring Without Repeating Characters`));
+console.log(changeString(`Median of Two Sorted Arrays`));
