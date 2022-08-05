@@ -2,6 +2,8 @@
 // leet code challenge 'Median of Two Sorted Arrays'
 // problem link https://leetcode.com/problems/median-of-two-sorted-arrays/
 
+// The overall run time complexity should be O(log (m+n)).
+
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
