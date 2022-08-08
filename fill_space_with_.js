@@ -4,4 +4,4 @@ function changeString(string) {
   return string.split(" ").join("_") + ".js";
 }
 
-console.log(changeString(`Backspace String Compare`));
+console.log(changeString(`Reverse Integer`));
