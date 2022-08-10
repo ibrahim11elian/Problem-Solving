@@ -4,4 +4,4 @@ function changeString(string) {
   return string.split(" ").join("_") + ".js";
 }
 
-console.log(changeString(`Reverse Integer`));
+console.log(changeString(`String to Integer atoi`));
