@@ -11,8 +11,6 @@ function isValid(s) {
         "]": 3
     };
     var arr = [];
-    if (s.length < 2)
-        return false;
     while (s[i]) {
         if (s[i] in open) {
             arr.push(s[i]);
@@ -30,7 +28,7 @@ function isValid(s) {
         }
         i++;
     }
-    return true;
+    return arr.length === 0 ? true : false;
 }
 function match(s) {
     switch (s) {
