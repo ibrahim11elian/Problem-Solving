@@ -4,4 +4,4 @@ function changeString(string) {
   return string.split(" ").join("_") + ".js";
 }
 
-console.log(changeString(`Valid Parentheses`));
+console.log(changeString(`Remove Duplicates from Sorted Array`));

@@ -1,3 +1,6 @@
+// leet code challenge 'Valid Parentheses'
+// problem link https://leetcode.com/problems/valid-parentheses
+
 function isValid(s: string): boolean {
   let i: number = 0;
   const open: object = {
