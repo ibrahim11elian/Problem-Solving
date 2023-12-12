@@ -8,7 +8,7 @@
  */
 var strStr = function (haystack, needle) {
   // Returns the position of the first occurrence of a substring.
-  return haystack.indexOf(needle) ? haystack.indexOf(needle) : -1;
+  return haystack.indexOf(needle);
 };
 
 console.log(strStr("leetcode", "leeto"));
