@@ -39,6 +39,7 @@ console.log(majorityElement([2, 2, 1, 1, 1, 2, 2]));
 
 // better solution
 // Boyer-Moore Voting Algorithm. It has a time complexity of O(n) and a space complexity of O(1).
+// the main concept here is returning the most occurrence element in array as the problem says that "You may assume that the majority element always exists in the array".
 var majorityElement = function (nums) {
   // Initialize variables to keep track of the potential majority element and its count
   let candidate;
