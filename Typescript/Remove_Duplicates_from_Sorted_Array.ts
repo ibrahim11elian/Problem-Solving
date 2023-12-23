@@ -4,10 +4,10 @@
 // bad problem
 // give dislike 👎
 
-https: function removeDuplicates(nums: number[]): number[] {
+function removeDuplicates(nums: number[]): number[] {
   const len = nums.length;
   let arr: number[] = [];
-  let hash: object = {};
+  let hash: { [key: number]: number } = {};
   for (let i = 0; i < len; i++) {
     if (nums[i] in hash) continue;
     else {
@@ -19,4 +19,11 @@ https: function removeDuplicates(nums: number[]): number[] {
   return nums;
 }
 
-console.log(removeDuplicates([0, 0, 1, 2, 2, 3]));
+// another solution
+function removeDuplicates2(nums: number[]): number[] {
+  const set: Set<number> = new Set(nums);
+  nums = [...set.values()];
+  return nums;
+}
+
+console.log(removeDuplicates2([0, 0, 1, 2, 2, 3]));
