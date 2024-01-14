@@ -1,3 +1,6 @@
+// leet code challenge 'Plus One'
+// problem link https://leetcode.com/problems/plus-one/description/
+
 /**
  * Function to add one to a non-negative integer represented by an array of digits.
  * @param {number[]} digits - Array of digits representing a non-negative integer.
