@@ -7,6 +7,28 @@
  */
 var productExceptSelf = function (nums) {
   let len = nums.length;
+  let result = Array(len).fill(1);
+
+  let pre = 1;
+  for (let i = 0; i < len; i++) {
+    result[i] = pre;
+    pre *= nums[i];
+  }
+  let post = 1;
+  for (let i = len - 1; i >= 0; i--) {
+    result[i] *= post;
+    post *= nums[i];
+  }
+
+  return result;
+};
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var productExceptSelf = function (nums) {
+  let len = nums.length;
   let left = [nums[0]];
   let right = [nums[len - 1]];
   for (let i = 1; i < len; i++) {
@@ -23,3 +45,5 @@ var productExceptSelf = function (nums) {
 
   return result;
 };
+
+console.log(productExceptSelf([1, 2, 3, 4]));
