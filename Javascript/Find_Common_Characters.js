@@ -14,7 +14,7 @@ var commonChars = function (words) {
   for (let i = 1; i < words.length; i++) {
     let tmpMap = {};
     for (let j = 0; j < words[i].length; j++) {
-      tempMap = tmpMap[words[i][j]] = (tmpMap[words[i][j]] || 0) + 1;
+      tmpMap = tmpMap[words[i][j]] = (tmpMap[words[i][j]] || 0) + 1;
     }
     for ([k, v] of Object.entries(map)) {
       map[k] = Math.min(v, tmpMap[k]);
